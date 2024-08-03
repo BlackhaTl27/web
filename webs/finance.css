@@ -1,0 +1,73 @@
+#parent1{
+    height: 100px;
+    border: 1px solid red;
+    
+}
+.Child{
+    height: 100%;
+    width: 35%;
+    border: 1px solid black;
+    margin-left: 35%;
+    border-radius: 30px;
+    align-content: center;
+    padding-left: 20px;
+}
+.balanceimage{
+    height: 40px;
+
+}
+.parent2{
+    height: 100px;
+    width: 35%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    justify-content: center;
+    text-align: center;
+    margin-left: 36%;
+    border-radius: 30px;
+    column-gap: 6px;
+    
+}
+.child{
+    border: 1px solid blue;
+    align-content: center;
+    border-radius: 30px;
+    
+    
+}
+#homeparent-3{
+    height: 100px;
+    width: 50%;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    column-gap: 5px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 28%;
+    border-radius: 20px;
+
+    
+    
+}
+.homechild3{
+    
+    
+    border: 2px solid black;
+    border-radius: 50px;
+    
+    
+    
+}
+.homeimage{
+    height: 50px;
+}
+.homechild3:hover{
+    background-color: aqua;
+
+}
+.homeimage:hover{
+    background-color: bisque;
+    border-radius: 15px;
+}

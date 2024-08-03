@@ -1,0 +1,56 @@
+#parent{
+    height: 230px;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    row-gap: 5px;
+    border-radius: 30px;
+    justify-content: center;
+    
+}
+.child{
+    border: 1px solid red;
+    border-radius: 30px;
+    align-content: center;
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: rgb(171, 212, 248);
+}
+
+h2{
+    text-align: center;
+}
+#homeparent-3{
+    height: 100px;
+    width: 50%;
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    column-gap: 5px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 26%;
+    border-radius: 20px;
+
+    
+    
+}
+.homechild3{
+    
+    
+    border: 2px solid black;
+    border-radius: 50px;
+    
+    
+    
+}
+.homeimage{
+    height: 50px;
+}
+.homechild3:hover{
+    background-color: aqua;
+
+}
+.homeimage:hover{
+    background-color: bisque;
+    border-radius: 15px;
+}
